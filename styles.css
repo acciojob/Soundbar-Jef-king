@@ -1,23 +1,16 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    margin: 0;
-    padding: 0;
+	background-color:#a164df;
 }
 
-#buttons {
-    margin-top: 20px;
-}
 
-.btn {
-    background-color: #3498db;
+
+.btn,.stop {
+    background-color: #663399;
     color: #fff;
     border: none;
     padding: 10px 20px;
     margin: 5px;
     cursor: pointer;
-}
-
-.stop {
-    background-color: #e74c3c;
 }
