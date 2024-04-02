@@ -1,16 +1,26 @@
 body {
+	display:flex;
+	justify-content:center;
+	align-items:center;
     font-family: Arial, sans-serif;
     text-align: center;
 	background-color:#a164df;
 }
-
-
-
+#buttons{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-wrap:wrap;
+	gap:20px;
+	width:100%;
+	height:100%;
+}
 .btn,.stop {
     background-color: #663399;
     color: #fff;
     border: none;
-    padding: 10px 20px;
+    padding: 15px 20px;
     margin: 5px;
+	border-radius:5px;
     cursor: pointer;
 }
